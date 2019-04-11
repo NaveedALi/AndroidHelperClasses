@@ -22,11 +22,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:fontFamily="@font/roboto_medium"
                 android:padding="10dp"
                 android:text=""
                 android:textColor="@android:color/black"
-                android:textSize="@dimen/text_size_normal"
+                android:textSize="18sp"
                 tools:text="@tools:sample/lorem" />
 
             <TextView
@@ -34,11 +33,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:fontFamily="@font/roboto_regular"
                 android:gravity="center"
                 android:padding="10dp"
                 android:textColor="@color/black"
-                android:textSize="@dimen/text_size_small"
+                android:textSize="14sp"
                 tools:text="Dummy Description text" />
 
             <LinearLayout
@@ -53,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="0dp"
                     android:layout_weight="1"
-                    android:background="@color/pace_yellow"
+                    android:background="#FFFF00"
                     android:foreground="?attr/selectableItemBackgroundBorderless"
                     android:text=""
                     android:textColor="@android:color/white"
@@ -70,11 +68,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="0dp"
                     android:layout_weight="1"
-                    android:background="@color/pace_red"
+                    android:background="#FF0000"
                     android:foreground="?attr/selectableItemBackgroundBorderless"
                     android:textColor="@android:color/white"
                     android:visibility="visible"
-                    tools:text="Update" />
+                    tools:text="Cancel" />
 
 
             </LinearLayout>
