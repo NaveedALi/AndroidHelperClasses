@@ -1,3 +1,4 @@
+package com.usepace.android.rider.ui.dialogs;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -11,17 +12,11 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.usepace.android.rider.R;
-import com.usepace.android.rider.screens.parents.BaseDialogFragment;
-import com.usepace.android.rider.ui.dialogs.adapters.DialogType;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-/**
-*
-* @author Naveed Ali
-/**
+
 public class ChoiceDialog extends BaseDialogFragment {
 
     private String message = null;
@@ -35,7 +30,6 @@ public class ChoiceDialog extends BaseDialogFragment {
     private int endBtnColor = 0;
     private boolean isCancelable = false;
 
-    //butterknife used to inject views
     @BindView(R.id.tv_title)
     protected TextView tvTitle;
 
@@ -81,8 +75,7 @@ public class ChoiceDialog extends BaseDialogFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.layout_choice_dialog, container, false);
-        return rootView;
+        return inflater.inflate(R.layout.layout_choice_dialog, container, false);
     }
 
     @Override
