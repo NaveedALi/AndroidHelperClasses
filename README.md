@@ -1,7 +1,7 @@
 # Oftenly used android helper,Utilities classes and methods
 
-Calling alert
-
+## Calling alert
+```
   ChoiceDialog choiceDialog = (new ChoiceDialog.Builder()                    
                     .setTitle("Title here")
                     .setMessage("Custome message here")
@@ -11,3 +11,5 @@ Calling alert
                     .create());
              choiceDialog.setListener(listener);
              choiceDialog.show(getSupportFragmentManager(), null);
+            ```
+             
