@@ -1,4 +1,4 @@
-package com.usepace.android.rider.ui.dialogs;
+package com.naveed.samples;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -233,6 +233,7 @@ public class ChoiceDialog extends BaseDialogFragment {
         }
 
         public Builder() {
+            
         }
 
         protected Builder(Parcel in) {
